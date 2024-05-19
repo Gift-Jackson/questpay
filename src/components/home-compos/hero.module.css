@@ -64,7 +64,7 @@
     border: 0;
     border-radius: 50px;
     color: var(--white);
-    filter: drop-shadow(0 0 50px rgb(180, 167, 251));
+    filter: drop-shadow(0 0 10px rgb(180, 167, 251));
 }
 .btn_2 span{
     font-size: 15;
