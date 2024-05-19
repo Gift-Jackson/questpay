@@ -1,0 +1,84 @@
+.mobilenav{
+    position: fixed;
+    inset: 0;
+    z-index: 2;
+}
+.overlay{
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color:rgba(0,0,0,.05) ;
+    backdrop-filter: blur(2px);
+    z-index: -1;
+}
+.content{
+    background-color: var(--light-bg);
+    height: 100%;
+    width: 70%;
+}
+.header{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 1em;
+    border-bottom: 1px solid var(--border);
+}
+
+.brand{
+    font-family: var(--font-2);
+    color: var(--primary-color);
+    letter-spacing: 1px;
+}
+.close_menu{
+    width: 45px;
+    height: 45px;
+    background-color: var(--main-bg);
+    border-radius: 50%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    cursor: pointer;
+}
+
+.container{
+    padding: 1em;
+    height: 80vh;
+    display: flex;
+    justify-content: space-between;
+    flex-direction: column;
+}
+
+.nav{
+    list-style: none;
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.nav a{
+    color: var(--font-color-light);
+    display: block;
+    padding: .75em;
+}
+.btns{
+    display: flex;
+    flex-direction: column;
+    gap: 1em;
+}
+
+.btns button{
+    width: 100%;
+    padding: 1em;
+}
+
+.btn_1{
+    background-color: var(--main-bg);
+    border: 1px solid var(--border);
+    border-radius: .5em;
+}
+.btn_2{
+    background: var(--gradient);
+    border: 0;
+    border-radius: .5em;
+    color: var(--white);
+}

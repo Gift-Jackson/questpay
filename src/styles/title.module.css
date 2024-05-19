@@ -1,0 +1,14 @@
+.title{
+    text-align: center;
+    padding-bottom: .5em;
+}
+.title h2{
+    background: var(--gradient);
+    background-clip: text;
+    -webkit-background-clip: text;
+    color: transparent;
+}
+.title p{
+    font-size: small;
+    color: var(--font-color-light);
+}
