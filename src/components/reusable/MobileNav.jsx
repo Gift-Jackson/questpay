@@ -3,6 +3,7 @@ import { Link, NavLink } from "react-router-dom";
 import styles from "./mobilenav.module.css";
 import { motion } from "framer-motion";
 import { navLinks } from "../../constants/data";
+import '../../styles/global.css'
 const MobileNav = ({ toggleMenu }) => {
   const navVar = {
     initial: {

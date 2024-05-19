@@ -1,12 +1,19 @@
-
-header{
+header {
     background-color: var(--light-bg);
     /* box-shadow: 0 5px 10px rgba(0,0,0,0.05); */
     border-bottom: 1px solid var(--border);
 }
+
 .nav-link.active,
-.nav-link:hover{
-  color: var(--primary-color);
-  opacity: 1;
-  cursor: pointer;
+.nav-link:hover {
+    color: var(--primary-color);
+    opacity: 1;
+    cursor: pointer;
+}
+
+#mobile-nav .nav-link.active,
+#mobile-nav .nav-link:hover {
+    background-color: var(--main-bg);
+    padding: .75em;
+    border-radius: .5em;
 }

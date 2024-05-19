@@ -99,7 +99,7 @@ button i, button span{
 
 #mobile-nav .nav-link.active,
 #mobile-nav .nav-link:hover{
-  background-color: var(--light-bg);
+  background-color: var(--main-bg);
   padding: .75em;
   border-radius: .5em;
 }
