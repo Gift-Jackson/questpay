@@ -32,7 +32,7 @@ const Header = ({toggleMenu}) => {
                               <button className={styles.theme}>
                                   <span className="material-symbols-outlined">light_mode</span>
                               </button>
-                              <Link>
+                              <Link to="/login">
                                   <button className={styles.btn}>
                                       Let me in &nbsp; <i className="fa-solid fa-arrow-right fa-shake"></i>
                               </button>

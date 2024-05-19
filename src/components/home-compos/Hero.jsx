@@ -26,7 +26,7 @@ const Hero = () => {
             </p>
 
             <div className={styles.avatar_grp}>
-              <Link to="/list">
+              <Link to="/signup">
                 <span className={styles.text}>
                   Join
                 </span>
@@ -50,7 +50,9 @@ const Hero = () => {
             </div>
 
             <div className={styles.btns}>
-              <a href="#" target="_blank">
+                      <a href="#" target="_blank">
+                          <Link to="/login">
+                              
                 <motion.button
                   whileHover={{
                     scale: 1.1,
@@ -62,8 +64,9 @@ const Hero = () => {
                 >
                   <i className="fa-solid fa-arrow-right-to-bracket"></i> Sign In
                 </motion.button>
+                          </Link>
               </a>
-              <Link to="/waitlist">
+              <Link to="/signup">
                 <motion.button
                   whileHover={{
                     scale: 1.1,

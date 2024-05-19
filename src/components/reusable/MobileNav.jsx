@@ -53,7 +53,7 @@ const MobileNav = ({ toggleMenu }) => {
             </ul>
 
             <div className={styles.btns}>
-              <Link to="/waitlist">
+              <Link to="/signup">
                 <button className={styles.btn_2}>
                   Get Started <i className="fa-solid fa-arrow-right"></i>
                 </button>

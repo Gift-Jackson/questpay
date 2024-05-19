@@ -4,6 +4,7 @@ import Hompage from "./pages/Hompage"
 import OffersPage from "./pages/OffersPage"
 import ContactsPage from "./pages/ContactsPage"
 import { AnimatePresence } from "framer-motion"
+import NotfoundPage from "./pages/NotfoundPage"
 
 const App = () => {
   const location = useLocation();
@@ -14,7 +15,8 @@ const App = () => {
         <Route path="/" element={<LandingPageLayout />} >
           <Route index element={<Hompage />} />
           <Route path="offers" element={<OffersPage/>} />
-          <Route path="contacts" element={<ContactsPage/>} />
+            <Route path="contacts" element={<ContactsPage />} />
+            <Route path="*" element={<NotfoundPage/>} />
         </Route>
         </Routes>
         </AnimatePresence>
