@@ -16,8 +16,14 @@ const App = () => {
   useEffect(() => {
     if (darkMode) {
       document.body.classList.add("dark");
+      document
+        .querySelector('meta[name="theme-color"]')
+        .setAttribute("content", "#20212d");
     } else {
       document.body.classList.remove("dark");
+      document
+        .querySelector('meta[name="theme-color"]')
+        .setAttribute("content", "#fefefe");
     }
   }, [darkMode]);
 
