@@ -54,7 +54,7 @@
     border-radius: 1em;
     background-color: transparent;
     transition: .1s;
-    border: 0;
+    border: 1px solid var(--border);
 }
 
 .theme span{

@@ -5,15 +5,16 @@ import { Toaster } from "sonner";
 import MobileNav from "./components/reusable/MobileNav";
 import { AnimatePresence } from "framer-motion";
 import { useState } from "react";
+import Proptypes from 'prop-types'
 
-const LandingPageLayout = () => {
+const LandingPageLayout = ({toggleTheme, darkMode}) => {
   const [openMenu, setOpenMenu] = useState(false);
   const toggleMenu = () => {
     setOpenMenu(!openMenu);
   };
   return (
     <>
-      <Header toggleMenu={toggleMenu} />
+      <Header toggleMenu={toggleMenu} toggleTheme={toggleTheme} darkMode={darkMode} />
       <AnimatePresence>
         {openMenu && <MobileNav toggleMenu={toggleMenu} />}
       </AnimatePresence>
@@ -25,5 +26,10 @@ const LandingPageLayout = () => {
     </>
   );
 };
+
+LandingPageLayout.propTypes = {
+    toggleTheme:Proptypes.func,
+    darkMode:Proptypes.func,
+}
 
 export default LandingPageLayout;
