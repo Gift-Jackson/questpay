@@ -40,7 +40,7 @@ const Offers = () => {
             ))}
           </AnimatePresence>
         </ul>
-        <Link to="/waitlist">
+        <Link to="/signup">
           <motion.button
             whileHover={{
               scale: 1.1,

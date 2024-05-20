@@ -6,6 +6,8 @@ import ContactsPage from "./pages/ContactsPage";
 import { AnimatePresence } from "framer-motion";
 import NotfoundPage from "./pages/NotfoundPage";
 import { useState, useEffect } from "react";
+import Login from "./pages/Login";
+import Signup from "./pages/Signup";
 
 const App = () => {
   // Initialize dark mode state from localStorage
@@ -50,6 +52,8 @@ const App = () => {
             <Route index element={<Hompage />} />
             <Route path="offers" element={<OffersPage />} />
             <Route path="contacts" element={<ContactsPage />} />
+            <Route path="login" element={<Login/>} />
+            <Route path="signup" element={<Signup/>} />
             <Route path="*" element={<NotfoundPage />} />
           </Route>
         </Routes>
