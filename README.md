@@ -1,8 +1,34 @@
-# React + Vite
 
-This template provides a minimal setup to get React working in Vite with HMR and some ESLint rules.
+# Questpay
 
-Currently, two official plugins are available:
+At QuestPay, we're dedicated to making everyday transactions affordable and hassle-free. With our platform, you can purchase data, airtime, and pay utility bills—all at super cheap rates. 
 
-- [@vitejs/plugin-react](https://github.com/vitejs/vite-plugin-react/blob/main/packages/plugin-react/README.md) uses [Babel](https://babeljs.io/) for Fast Refresh
-- [@vitejs/plugin-react-swc](https://github.com/vitejs/vite-plugin-react-swc) uses [SWC](https://swc.rs/) for Fast Refresh
+
+## Acknowledgements
+
+ - [Questgig](https://questgig.com/)
+ - [Nimbles Trade](https://google.com)
+
+
+
+## Deployment
+
+To deploy this project run, fork and clone the repo.
+In your terminal, run the commands below:
+
+```bash
+  npm install
+```
+After installing node modules, go adhere and start the development server by running
+
+```bash
+  npm run dev
+```
+Play with it but ruin it 😒
+
+
+## Demo
+
+A demo
+
+https://questpay.netlify.app/
