@@ -148,7 +148,7 @@ const SignupForm = () => {
                 value={formData.phonenumber}
                 onChange={handleChange}
               />
-              <i className="fa-regular fa-envelope"></i>
+             <i className="fa-solid fa-phone"></i>
             </div>
           </div>
           <div className={styles.grp}>
@@ -163,7 +163,7 @@ const SignupForm = () => {
                 value={formData.password}
                 onChange={handleChange}
               />
-              <i className="fa-regular fa-envelope"></i>
+             <i className="fa-solid fa-lock"></i>
               <div className={styles.eye} onClick={togglePasswordVisibility}>
                 <span className="material-symbols-outlined">
                   {passwordVisible ? "visibility" : "visibility_off"}
