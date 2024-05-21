@@ -118,7 +118,7 @@ const SignupForm = () => {
                 value={formData.name}
                 onChange={handleChange}
               />
-              <i className="fa-regular fa-user"></i>
+              <i className="fa-solid fa-user"></i>
             </div>
           </div>
           <div className={styles.grp}>
@@ -133,7 +133,7 @@ const SignupForm = () => {
                 value={formData.email}
                 onChange={handleChange}
               />
-              <i className="fa-regular fa-envelope"></i>
+              <i className="fa-solid fa-envelope"></i>
             </div>
           </div>
           <div className={styles.grp}>
