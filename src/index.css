@@ -6,7 +6,6 @@
   outline: none;
   text-decoration: none;
   box-sizing: border-box;
-  color: var(--font-color);
   font-family: var(--font-1);
   cursor: default;
   transition: background-color .2s ease-in-out;
@@ -69,6 +68,7 @@ html {
   overflow-x: hidden;
   scroll-behavior: smooth;
   scroll-padding-top: 10rem;
+  color: var(--font-color);
 }
 
 .font-2 {
@@ -77,6 +77,7 @@ html {
 
 body {
   background-color: var(--light-bg);
+  color: var(--font-color);
 }
 
 

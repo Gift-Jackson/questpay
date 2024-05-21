@@ -19,6 +19,7 @@
     border-radius: .5em;
     cursor: pointer;
     font-size: small;
+    color: var(--font-color);
 }
 .container{
     min-height: calc(100dvh - 70px);

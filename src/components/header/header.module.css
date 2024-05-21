@@ -26,6 +26,7 @@
     opacity: .7;
     font-size: 15px;
     font-weight: 500;
+    color: var(--font-color);
 }
 .btns{
     display: flex;
@@ -44,6 +45,7 @@
     align-items: center;
     border: 0;
     border-radius: 50%;
+    color: var(--font-color);
 }
 .theme{
     height: 40px;
