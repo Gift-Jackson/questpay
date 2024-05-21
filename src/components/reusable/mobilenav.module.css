@@ -75,6 +75,7 @@
     background-color: var(--main-bg);
     border: 1px solid var(--border);
     border-radius: .5em;
+    color: var(--font-color);
 }
 .btn_2{
     background: var(--gradient);
