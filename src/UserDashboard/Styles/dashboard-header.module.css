@@ -61,8 +61,8 @@ color: var(--font-color-light);
     background-color: crimson;
     border-radius: 50%;
     position: absolute;
-    top: .5em;
-    right: .5em;
+    top: 0;
+    right: 0;
 }
 .theme{
     height: 50px;
