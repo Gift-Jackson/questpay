@@ -1,13 +1,15 @@
 import { Routes, Route, useLocation } from "react-router-dom";
-import LandingPageLayout from "./LandingPageLayout";
-import Hompage from "./pages/Hompage";
-import OffersPage from "./pages/OffersPage";
-import ContactsPage from "./pages/ContactsPage";
+import OffersPage from "./LandingPage/pages/OffersPage";
+import ContactsPage from "./LandingPage/pages/ContactsPage";
 import { AnimatePresence } from "framer-motion";
-import NotfoundPage from "./pages/NotfoundPage";
+import NotfoundPage from "./LandingPage/pages/NotfoundPage";
 import { useState, useEffect } from "react";
-import Login from "./pages/Login";
-import Signup from "./pages/Signup";
+import Login from "./LandingPage/pages/Login";
+import Signup from "./LandingPage/pages/Signup";
+import DashboardLayout from "./UserDashboard/DashboardLayout";
+import LandingPageLayout from "./LandingPage/LandingPageLayout";
+import Hompage from "./LandingPage/pages/Hompage"
+import Dashboard from "./UserDashboard/pages/Dashboard";
 
 const App = () => {
   // Initialize dark mode state from localStorage
@@ -49,12 +51,16 @@ const App = () => {
               />
             }
           >
-            <Route index element={<Hompage />} />
+            <Route index element={<Hompage/>} />
             <Route path="offers" element={<OffersPage />} />
             <Route path="contacts" element={<ContactsPage />} />
-            <Route path="login" element={<Login/>} />
-            <Route path="signup" element={<Signup/>} />
+            <Route path="login" element={<Login />} />
+            <Route path="signup" element={<Signup />} />
             <Route path="*" element={<NotfoundPage />} />
+          </Route>
+          <Route path="/dashboard" element={<DashboardLayout />}>
+            <Route index element={<Dashboard toggleTheme={toggleTheme}
+                darkMode={darkMode} />} />
           </Route>
         </Routes>
       </AnimatePresence>

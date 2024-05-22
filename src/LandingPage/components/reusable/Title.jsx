@@ -1,5 +1,5 @@
 import PropTypes from "prop-types";
-import styles from "../../styles/title.module.css";
+import styles from "../../../styles/title.module.css";
 const Title = ({
   title = "Heading",
   subtitle = "Some cool subtitle right here",

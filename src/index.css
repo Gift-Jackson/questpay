@@ -12,11 +12,12 @@
 }
 
 :root {
-  --primary-color:mediumslateblue;
-  --gradient: linear-gradient(270deg, var(--primary-color) 0%, #FF26B9 99.99%, #FE34B9 100%);
+  --primary-color:#7b68ee;
+  --gradient: linear-gradient(270deg, var(--primary-color) 20%, #FF26B9 99.99%, #FE34B9 100%);
   --main-bg: #f5f6f7;
   --light-bg: #fefefe;
-  --font-color: #444;
+  --medium-bg: #f5f6f7;
+  --font-color: #4a4a4a;
   --font-color-light: #777;
   --border: #ededed;
   --border-color: mediumslateblue;
@@ -29,12 +30,15 @@
   --blue: dodgerblue;
   --orange: orange;
   --crimson:crimson;
+  --purple:mediumslateblue;
+  --pink: #FE34B9;
 }
 .dark {
   --primary-color:mediumslateblue;
-  --gradient: linear-gradient(270deg, var(--primary-color) 0%, #FF26B9 99.99%, #FE34B9 100%);
+  --gradient: linear-gradient(270deg, var(--primary-color) 20%, #FF26B9 99.99%, #FE34B9 100%);
   --main-bg: #17181f;
   --light-bg: #20212d;
+  --medium-bg: #30313d;
   --font-color: #fefefe;
   --font-color-light: #7d82bf;
   --border: #30313d;

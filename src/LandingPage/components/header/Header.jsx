@@ -1,8 +1,8 @@
 import styles from "./header.module.css";
-import { navLinks } from "../../constants/data";
+import { navLinks } from "../../../constants/data";
 import { Link, NavLink } from "react-router-dom";
 import PropTypes from "prop-types";
-import "../../styles/global.css";
+import "../../../styles/global.css";
 const Header = ({ toggleMenu, toggleTheme, darkMode }) => {
   return (
     <>

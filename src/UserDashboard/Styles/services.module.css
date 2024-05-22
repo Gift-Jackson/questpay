@@ -1,0 +1,55 @@
+.container{
+    margin: 1em 0;
+}
+
+.top{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+.top p{
+    color: var(--font-color-light);
+}
+
+.list{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(100px, 1fr));
+    list-style: none;
+    margin-top: 1em;
+    gap: 1em;
+}
+
+.card{
+    text-align: center;
+    background-color: var(--light-bg);
+    padding: 1em;
+    border: 1px solid var(--border);
+    border-radius: 1em;
+    color: var(--font-color);
+}
+
+.box:nth-child(1) .icon span{
+    color: var(--green);
+    filter: drop-shadow(0 0 10px var(--green));
+}
+
+.box:nth-child(2) .icon span{
+    color: var(--blue);
+    filter: drop-shadow(0 0 10px var(--blue));
+}
+.box:nth-child(3) .icon span{
+    color: var(--crimson);
+    filter: drop-shadow(0 0 10px var(--crimson));
+}
+.box:nth-child(4) .icon span{
+    color: var(--pink);
+    filter: drop-shadow(0 0 10px var(--pink));
+}
+.box:nth-child(5) .icon span{
+    color: var(--purple);
+    filter: drop-shadow(0 0 10px var(--purple));
+}
+.box:nth-child(6) .icon span{
+    color: var(--orange);
+    filter: drop-shadow(0 0 10px var(--orange));
+}

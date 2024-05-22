@@ -29,7 +29,7 @@ const LandingPageLayout = ({toggleTheme, darkMode}) => {
 
 LandingPageLayout.propTypes = {
     toggleTheme:Proptypes.func,
-    darkMode:Proptypes.func,
+    darkMode:Proptypes.bool,
 }
 
 export default LandingPageLayout;

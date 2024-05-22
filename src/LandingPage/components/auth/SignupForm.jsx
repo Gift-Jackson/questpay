@@ -97,7 +97,7 @@ const SignupForm = () => {
         },
       });
       setTimeout(() => {
-        navigate("/login")
+        navigate("/dashboard")
     },3000)
     }
   };

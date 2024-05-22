@@ -1,5 +1,5 @@
 import { AnimatePresence, motion } from "framer-motion";
-import { offers } from "../../constants/data";
+import { offers } from "../../../constants/data";
 import { Link } from "react-router-dom";
 import { useRef } from "react";
 import Title from "../reusable/Title";

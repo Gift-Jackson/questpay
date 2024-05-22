@@ -1,9 +1,9 @@
 import styles from "./hero.module.css";
-import avatar1 from "../../assets/avatar-1.avif";
-import avatar2 from "../../assets/avatar-2.avif";
-import avatar3 from "../../assets/avatar-3.avif";
-import avatar4 from "../../assets/avatar-4.avif";
-import avatar5 from "../../assets/avatar-5.avif";
+import avatar1 from "../../../assets/avatar-1.avif";
+import avatar2 from "../../../assets/avatar-2.avif";
+import avatar3 from "../../../assets/avatar-3.avif";
+import avatar4 from "../../../assets/avatar-4.avif";
+import avatar5 from "../../../assets/avatar-5.avif";
 import { Link } from "react-router-dom";
 import { motion } from "framer-motion";
 const Hero = () => {

@@ -36,3 +36,58 @@ export const offers = [
     }
 ]
 
+export const services = [
+    {
+        icon: 'call',
+        name: 'Airtime',
+        path: '/airtime'
+    },
+    {
+        icon: 'wifi',
+        name: 'Data',
+        path: '/data'
+    },
+    {
+        icon: 'router',
+        name: 'Cable',
+        path: '/cable'
+    },
+    {
+        icon: 'bolt',
+        name: 'Power',
+        path: '/electricity'
+    },
+    {
+        icon: 'swap_horiz',
+        name: 'Swap',
+        path: '/airtime-cash'
+    },
+    {
+        icon: 'encrypted',
+        name: 'Crypto',
+        path: '/crypto'
+    },
+]
+export const sideNav = [
+    {
+        icon: 'dashboard',
+        name: 'Dashboard',
+        path: ''
+    },
+    {
+        icon: 'person',
+        name: 'Account',
+        path: '/account'
+    },
+    {
+        icon: 'settings',
+        name: 'Settings',
+        path: '/settings'
+    },
+    {
+        icon: 'support_agent',
+        name: 'Support',
+        path: '/support'
+    },
+]
+
