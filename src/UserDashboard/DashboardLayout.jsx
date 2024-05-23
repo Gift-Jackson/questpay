@@ -8,6 +8,7 @@ export const MenuContex = createContext();
 
 const DashboardLayout = () => {
   const [showSidebar, setShowSidebar] = useState(window.innerWidth >= 820);
+
   const handleResize = () => {
     if (window.innerWidth >= 820) {
       setShowSidebar(true);
@@ -15,14 +16,15 @@ const DashboardLayout = () => {
       setShowSidebar(false);
     }
   };
+
   useEffect(() => {
     window.addEventListener("resize", handleResize);
 
-    // Clean up the event listener on component unmount
     return () => {
       window.removeEventListener("resize", handleResize);
     };
   }, []);
+
   const toggleSidebar = () => {
     setShowSidebar(!showSidebar);
   };
@@ -32,7 +34,7 @@ const DashboardLayout = () => {
         <div className={styles.wrapper}>
           <AnimatePresence>{showSidebar && <Sidebar />}</AnimatePresence>
           <div className={styles.main}>
-            <Outlet />
+              <Outlet />
           </div>
         </div>
       </MenuContex.Provider>

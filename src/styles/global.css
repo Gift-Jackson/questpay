@@ -42,5 +42,5 @@ header {
     color: var(--primary-color);
 }
 button:active{
-    filter: brightness(120%);
+    filter: brightness(150%);
 }

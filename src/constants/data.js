@@ -40,32 +40,32 @@ export const services = [
     {
         icon: 'call',
         name: 'Airtime',
-        path: '/airtime'
+        path: 'airtime'
     },
     {
         icon: 'wifi',
         name: 'Data',
-        path: '/data'
+        path: 'data'
     },
     {
         icon: 'router',
         name: 'Cable',
-        path: '/cable'
+        path: 'cable'
     },
     {
         icon: 'bolt',
         name: 'Power',
-        path: '/electricity'
+        path: 'electricity'
     },
     {
         icon: 'swap_horiz',
         name: 'Swap',
-        path: '/airtime-cash'
+        path: 'airtime-cash'
     },
     {
         icon: 'encrypted',
         name: 'Crypto',
-        path: '/crypto'
+        path: 'crypto'
     },
 ]
 export const sideNav = [

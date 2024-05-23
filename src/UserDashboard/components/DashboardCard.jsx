@@ -22,7 +22,7 @@ const DashboardCard = ({ toggleBalance, showBalance }) => {
           <div>
             {showBalance ? (
               <h1 contentEditable="true">
-                23,000.00 <span className={styles.currency}>NGN</span>
+                0.00 <span className={styles.currency}>NGN</span>
               </h1>
             ) : (
               <h1>*******</h1>
@@ -49,7 +49,7 @@ const DashboardCard = ({ toggleBalance, showBalance }) => {
             <p>Referral(s)</p>
           </div>
           <div>
-            <h1>6</h1>
+            <h1 contentEditable="true">0</h1>
           </div>
           <div className={styles.btns}>
             <button className={styles.btn_2}>

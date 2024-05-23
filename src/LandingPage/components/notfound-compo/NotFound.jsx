@@ -14,7 +14,7 @@ const NoPage = () => {
               <h1>404</h1>
               <p>Hold on chief, I still dey cook! 🤚</p>
             </div>
-            <Link to="/">
+            <Link to="..">
               <label className={styles.back}>
                 <i className="fa-solid fa-arrow-left"></i> &nbsp;
                 <span>Go back</span>

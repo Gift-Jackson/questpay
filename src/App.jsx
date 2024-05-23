@@ -10,6 +10,12 @@ import DashboardLayout from "./UserDashboard/DashboardLayout";
 import LandingPageLayout from "./LandingPage/LandingPageLayout";
 import Hompage from "./LandingPage/pages/Hompage"
 import Dashboard from "./UserDashboard/pages/Dashboard";
+import Airtime from "./UserDashboard/pages/Airtime";
+import Data from "./UserDashboard/pages/Data";
+import Cable from "./UserDashboard/pages/Cable";
+import Power from "./UserDashboard/pages/Power";
+import Swap from "./UserDashboard/pages/Swap";
+import Crypto from "./UserDashboard/pages/Crypto";
 
 const App = () => {
   // Initialize dark mode state from localStorage
@@ -58,9 +64,15 @@ const App = () => {
             <Route path="signup" element={<Signup />} />
             <Route path="*" element={<NotfoundPage />} />
           </Route>
-          <Route path="/dashboard" element={<DashboardLayout />}>
+          <Route path="dashboard/" element={<DashboardLayout />}>
             <Route index element={<Dashboard toggleTheme={toggleTheme}
-                darkMode={darkMode} />} />
+              darkMode={darkMode} />} />
+            <Route path="airtime" element={<Airtime/>} />
+            <Route path="data" element={<Data/>} />
+            <Route path="cable" element={<Cable/>} />
+            <Route path="electricity" element={<Power/>} />
+            <Route path="airtime-cash" element={<Swap/>} />
+            <Route path="crypto" element={<Crypto/>} />
           </Route>
         </Routes>
       </AnimatePresence>
