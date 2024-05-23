@@ -39,7 +39,7 @@ const Dashboard = ({ toggleTheme, darkMode }) => {
 
             <div>
               {showBalance ? (
-                <h1>
+                <h1 contentEditable="true">
                   23,000.00 <span className={styles.currency}>NGN</span>
                 </h1>
               ) : (

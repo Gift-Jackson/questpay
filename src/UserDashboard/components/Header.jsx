@@ -1,5 +1,5 @@
 import { useContext } from 'react'
-import styles from '../Styles/dashboard-header.module.css'
+import styles from '../Styles/header.module.css'
 import PropTypes from 'prop-types'
 import { MenuContex } from '../DashboardLayout'
 
