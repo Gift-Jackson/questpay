@@ -1,0 +1,19 @@
+.container{
+    margin-top: 2em;
+    padding: 3em 0;
+    border-bottom: 1px solid var(--border);
+}
+.content{
+    width: min(100%, 700px);
+    margin: auto;
+    padding-bottom: 3em;
+}
+
+.img_wrap{
+    width: 100%;
+    margin-top: 2em;
+}
+.img_wrap img{
+    width: 100%;
+    object-fit: cover;
+}

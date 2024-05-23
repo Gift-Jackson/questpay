@@ -53,6 +53,9 @@ color: var(--font-color-light);
     /* background-color: var(--main-bg); */
     visibility: hidden;
 }
+.menu span{
+    font-size: 1.3em;
+}
 
 
 .indicator{

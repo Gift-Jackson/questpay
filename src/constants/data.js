@@ -91,3 +91,26 @@ export const sideNav = [
     },
 ]
 
+export const why = [
+    {
+        icon: 'payments',
+        name: 'Fast and Easy',
+        value: 'You can easily manage your bills and payments with just a few clicks.',
+    },
+    {
+        icon: 'encrypted',
+        name: 'Secure and Reliable',
+        value: 'We work with reputable providers to ensure your payments are secure.',
+    },
+    {
+        icon: 'cloud_off',
+        name: 'Offline Access',
+        value: 'You can still make payments even when you are offline. We offer free browsing, incase you suddenly loose internet access.',
+    },
+    {
+        icon: 'trending_down',
+        name: 'Cheap Rates',
+        value: 'We offer the cheapest rates in the market. You can save up to 20% on your bills and payments.',
+    }
+]
+
