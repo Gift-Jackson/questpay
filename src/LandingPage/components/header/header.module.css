@@ -4,8 +4,13 @@
     justify-content: space-between;
     height: 70px;
 }
+.brand a{
+    display: flex;
+    align-items: center;
+    gap: .5em;
+}
 .brand h2{
-    color: var(--primary-color);
+    color: var(--font-color);
     font-family: var(--font-2);
     font-size: 1.8em;
 }
@@ -73,7 +78,7 @@
     border: 0;
     color: var(--white);
     border-radius: .5em;
-    filter: drop-shadow(2px 5px 50px rgb(180, 167, 251));
+    filter: drop-shadow(2px 2px 80px var(--primary-color));
 }
 
 @media screen and (max-width:830px){

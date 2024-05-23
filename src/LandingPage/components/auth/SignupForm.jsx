@@ -83,12 +83,12 @@ const SignupForm = () => {
         },
       });
     } else {
-      setFormdata({
-        name: "",
-        email: "",
-        phonenumber: "",
-        password: "",
-      });
+      // setFormdata({
+      //   name: "",
+      //   email: "",
+      //   phonenumber: "",
+      //   password: "",
+      // });
       toast.success("Account created!", {
         style: {
           border: "none",

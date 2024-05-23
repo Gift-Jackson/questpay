@@ -3,20 +3,21 @@ import { Link, NavLink } from "react-router-dom";
 import styles from "./mobilenav.module.css";
 import { motion } from "framer-motion";
 import { navLinks } from "../../../constants/data";
-import '../../../styles/global.css'
+import "../../../styles/global.css";
+import logo from "../../../assets/logo.png";
 const MobileNav = ({ toggleMenu }) => {
   const navVar = {
     initial: {
       x: "-100%",
+      opacity:0
     },
     animate: {
       x: "0",
-      transition: {
-        delay: 0.2,
-      },
+      opacity:1,
     },
     exit: {
       x: "-100%",
+      opacity:0
     },
   };
 
@@ -29,15 +30,15 @@ const MobileNav = ({ toggleMenu }) => {
           initial="initial"
           animate="animate"
           exit="exit"
-          transition={{
-            duration: 0.1,
-          }}
           className={styles.content}
         >
           <div className={styles.header}>
-            <a href="/">
-              <h2 className={styles.brand}>QuestPay</h2>
-            </a>
+            <div className={styles.brand}>
+              <a href="/">
+                <img src={logo} width={40} alt="Questpay Logo" />
+                <h2>QuestPay</h2>
+              </a>
+            </div>
             <div className={styles.close_menu} onClick={toggleMenu}>
               <span className="material-symbols-outlined">close</span>
             </div>
@@ -61,7 +62,7 @@ const MobileNav = ({ toggleMenu }) => {
               </Link>
               <a href="#">
                 <button className={styles.btn_1}>
-                <i className="fa-solid fa-arrow-right-to-bracket"></i> Sign In
+                  <i className="fa-solid fa-arrow-right-to-bracket"></i> Sign In
                 </button>
               </a>
             </div>

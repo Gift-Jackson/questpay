@@ -70,6 +70,7 @@
     background-color: var(--primary-color);
     border: 1px solid var(--primary-color) ;
     color: var(--white);
+    filter: drop-shadow(2px 2px 80px var(--primary-color));
 }
 .btn_2, .btn_3{
     background-color: var(--medium-bg);
@@ -84,6 +85,7 @@
     color: var(--white);
     border: 1px solid var(--primary-color);
     border-radius: 50px;
+    filter: drop-shadow(2px 2px 80px var(--primary-color));
 }
 
 @media screen and (max-width:1024px) {

@@ -9,7 +9,7 @@ const Header = ({ toggleTheme, darkMode }) => {
       <div className={styles.header}>
           <div className={styles.left}>
           <div className={styles.menu} onClick={toggleSidebar}>
-            <span className="material-symbols-outlined">menu</span>
+            <span className="material-symbols-outlined">side_navigation</span>
               </div>
           </div>
           <div className={styles.left}>

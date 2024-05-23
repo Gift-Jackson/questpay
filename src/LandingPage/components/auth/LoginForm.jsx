@@ -56,12 +56,12 @@ const LoginForm = () => {
         },
       });
     } else {
-      setFormdata({
-        name: "",
-        email: "",
-        phonenumber: "",
-        password: "",
-      });
+      // setFormdata({
+      //   name: "",
+      //   email: "",
+      //   phonenumber: "",
+      //   password: "",
+      // });
       toast.success("Login successful!", {
         style: {
           border: "none",

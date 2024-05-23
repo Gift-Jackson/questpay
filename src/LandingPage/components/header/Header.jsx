@@ -3,6 +3,7 @@ import { navLinks } from "../../../constants/data";
 import { Link, NavLink } from "react-router-dom";
 import PropTypes from "prop-types";
 import "../../../styles/global.css";
+import logo from '../../../assets/logo.png'
 const Header = ({ toggleMenu, toggleTheme, darkMode }) => {
   return (
     <>
@@ -11,6 +12,7 @@ const Header = ({ toggleMenu, toggleTheme, darkMode }) => {
           <div className={styles.header}>
             <div className={styles.brand}>
               <a href="/">
+                <img src={logo} width={40} alt="Questpay Logo" />
                 <h2>QuestPay</h2>
               </a>
             </div>
@@ -45,7 +47,7 @@ const Header = ({ toggleMenu, toggleTheme, darkMode }) => {
                   </button>
                 </Link>
                 <button className={styles.menu} onClick={toggleMenu}>
-                  <span className="material-symbols-outlined">menu</span>
+                  <span className="material-symbols-outlined">side_navigation</span>
                 </button>
               </div>
             </div>

@@ -13,7 +13,7 @@ header {
 
 #mobile-nav .nav-link.active,
 #mobile-nav .nav-link:hover {
-    background-color: var(--main-bg);
+    background-color: var(--medium-bg);
     padding: .75em;
     border-radius: .5em;
 }
@@ -40,4 +40,7 @@ header {
     background-color: var(--medium-bg);
     border-radius: 50px;
     color: var(--primary-color);
+}
+button:active{
+    filter: brightness(120%);
 }
