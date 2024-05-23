@@ -1,7 +1,6 @@
 .heading{
     display: flex;
     align-items: center;
-    gap: .5em;
 }
 .heading a{
     color: var(--font-color);
